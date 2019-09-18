@@ -12,6 +12,11 @@ describe 'Integer Depth' do
     it "returns 1 for n = 123456789" do
         expect(compute_depth(123456789)).to eq(1)
     end
+    
+    it "returns 2 for n = 23456789" do
+        expect(compute_depth(23456789)).to eq(2)
+    end
+    
 end
 
 
