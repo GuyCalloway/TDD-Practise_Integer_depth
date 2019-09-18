@@ -1,3 +1,7 @@
 def compute_depth(n)
-    return 9
+    if n == 1
+      return 9
+    else
+      return 5
+    end
 end
